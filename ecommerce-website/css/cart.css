@@ -1,0 +1,146 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+a{
+	text-decoration:none;
+	display:inline-block;
+}
+
+ul,ol{
+	list-style:none;
+}
+img{
+  width: 100%;
+}
+.container{
+	max-width:1320px;
+	margin:0 auto;
+}
+.row{
+	display:flex;
+	flex-wrap:wrap;
+}
+.col-1{width:8.3333%;padding:15px;}
+.col-2{width:16.6666%;padding:15px;}
+.col-3{width:25%;padding:15px;}
+.col-4{width:33.3333%;padding:15px;}
+.col-5{width:41.6666%;padding:15px;}
+.col-6{width:50%;padding:15px;}
+.col-7{width:58.3333%;padding:15px;}
+.col-8{width:66.6666%;padding:15px;}
+.col-9{width:75%;padding:15px;}
+.col-10{width:83.3333%;padding:15px;}
+.col-11{width:91.6666%;padding:15px;}
+.col-12{width:100%;padding:15px;}
+
+.text-center{
+	text-align:center;
+}
+.mx-auto{
+	margin:0 auto;
+}
+
+.justify-content-center{
+	justify-content:center;
+}
+.justify-content-end{
+	 justify-content:end;
+}
+.justify-content-between{
+	justify-content:space-between;
+}
+.align-items-center{
+	align-items:center;
+}
+.align-items-stretch {
+    align-items:stretch;
+}
+
+.sub{
+	position:fixed;
+	width:100%;
+	top:0;
+	z-index:1;
+    background-color: #030d1d;
+}
+body{
+  /* background-color: #050b17; */
+  background-color: #030d1d;
+  color: #fff;
+  font-family: 'Roboto';
+}
+header .box{
+	padding: 10px 0;
+}
+.logo span{
+	color: #fff;
+	font-size: 24px;
+	line-height: 20px;
+	font-weight: 600;
+	padding-top:-15px;
+
+}
+.logo h6{
+	padding-top: 2px;
+	font-size: 24px;
+	line-height: 20px;
+	font-weight: 500;
+}
+.logo i{
+	color: white;
+	font-size: 30px;
+	font-weight: 0;
+}
+header nav ul li > a{
+	color:var(--white-color);
+	font-weight:500;
+	padding:0 25px;
+	text-transform:uppercase;
+	font-size:14px;
+	letter-spacing:2px;
+	transition:var(--transition);
+}
+
+ header .icons a i{
+	 color:#fff;
+	 padding:8px;
+	 font-size:20px;
+}
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.product, .cart-item {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#cart-items {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#final-price {
+    margin-top: 20px;
+    font-size: 20px;
+}

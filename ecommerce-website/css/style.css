@@ -1,0 +1,101 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  }
+
+  body {
+	background-color: #030d1d;
+	font-family: 'Roboto';
+  }
+
+  .wrapper {
+	width: 450px;
+	padding: 32px 16px;
+	margin: 160px auto;
+	background-color: #f4efef;
+	border-radius: 10px;
+	text-align: center;
+	box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+  }
+
+  h1 {
+	font-size: 34px;
+	color: #07001f;
+	margin-bottom: 19px;
+  }
+
+  form input {
+	width: 92%;
+	outline: none;
+	border: 1px solid rgb(170, 170, 170);
+	padding: 12px 20px;
+	margin-bottom: 10px;
+	background: #e4e4e4;
+  }
+
+  button {
+	font-size: 20px;
+	margin-top: 28px;
+	padding: 10px 0;
+	outline: none;
+	border: none;
+	width: 90%;
+	cursor: pointer;
+	background: #ad8044;
+  }
+  button{
+	font-size: 16px;
+	color: #fff;
+	text-decoration: none;
+  }
+
+  input:focus {
+	border: 1px solid rgba(192, 192, 192);
+  }
+
+  .terms {
+	margin-top: 3px;
+  }
+
+  .terms input {
+	height: 1em;
+	width: 1em;
+	vertical-align: middle;
+	cursor: pointer;
+  }
+
+  .terms label {
+	font-size: 12px;
+  }
+
+  .terms a {
+	color: #ad8044;
+	text-decoration: none;
+  }
+
+  .member {
+	font-size: 13px;
+	margin-top: 22px;
+	color: #636363;
+  }
+
+  .member a {
+	color: #ad8044;
+	text-decoration: none;
+  }
+  .recover{
+	text-align: right;
+	font-size: 12px;
+	margin: 4px 22px 0 0;
+  }
+  .recover a{
+	text-decoration: none;
+	color: #464647;
+  }
+
+  
+  .container{
+	max-width:1140px;
+	margin:0 auto;
+}
